@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registrarse | Biblioteca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <h5 id="titulo-signin">Crear una cuenta</h5>
+        <form>
+            <label class="lbl" for="text">Primer Nombre:</label>
+            <input class="dato d-nombre1" type="text" placeholder="Primer Nombre">
+            <label for="text">Segundo Nombre:</label>
+            <input class="dato d-nombre2" type="text" placeholder="Segundo Nombre">
+            <label for="text">Primer Apellido:</label>
+            <input class="dato d-apellido1" type="text" placeholder="Primer Apellido">
+            <label for="text">Segundo Apellido:</label>
+            <input class="dato d-apellido2" type="text" placeholder="Segundo Apellido">
+            <label for="text">Numero telefónico:</label>
+            <input class="dato d-pnumber" type="tel" placeholder="Número Telefónico">
+            <label for="text">Correo Electrónico:</label>
+            <input class="dato d-email" type="email" placeholder="Correo Electrónico">
+            <label for="text">Contraseña:</label>
+            <input class="dato d-pass1" type="password" placeholder="Contraseña"><br>
+            <label for="text">Repetir Contraseña:</label>
+            <input class="dato d-pass2" type="password" placeholder="Contraseña"><br>
+            <input class="go-back-nu" type="button" onclick="history.back()" name="go-back" value="Regresar">
+            <input class="new-user-r" type="submit" value="Registrarse">
+        </form>
+    </div>
+</body>
+</html>

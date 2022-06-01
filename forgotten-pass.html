@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión | Biblioteca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="f-pass">
+    <div class="login">
+        <h5 id="titulo-login">Iniciar Sesión</h5>
+        <form>
+            <label for="text">Correo Electrónico:</label>
+            <input id="email-recovery" type="email" placeholder="Correo Electrónico">
+            <button id="code" type="button">Enviar código de confirmación</button>
+            <p id="notice">Se le enviará un código al correo electrónico</p>
+            <label for="text">Código de confirmación:</label>
+            <input id="insert-code" type="text" placeholder="Código">
+            <button id="resend" type="button">Reenviar código de confirmación</button><br>
+            <input id="go-back" type="button" onclick="history.back()" name="go-back" value="Regresar">
+            <input class="check-pass" type="submit" value="Comprobar">
+        </form>
+    </div>
+</body>
+</html>
